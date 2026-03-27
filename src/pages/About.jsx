@@ -60,7 +60,7 @@ export default function About() {
             >
               <div className="absolute -top-3 -left-3 w-full h-full border-2 border-accent/30 rounded-2xl" />
               <img
-src="image/fotobersama.JPG"
+src="/assets/fotobersama.JPG"
                 alt="OSIM members"
                 className="relative rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
               />
@@ -75,6 +75,7 @@ src="image/fotobersama.JPG"
           <SectionHeading
             label="Our Purpose"
             title="Vision & Mission"
+            description="Our guiding vision and mission statements."
             light
           />
 

@@ -1,14 +1,12 @@
-# Deploy to GitHub TODO
+# Task: Add gedungma.JPG image to "Gedung OSIM MA Refah Islami" section
 
-**Done:**
-- [x] npm run build (dist generated)
-- [x] Rolled back deploy (reset to b9d26278, force pushed)
-- [x] Added all images (image/ dir)
-- [x] Ganti gedungma.JPG -> fotobersama.JPG di Home.jsx (hero & group)
+# Task Completed ✅
 
-**Next Steps:**
-- [ ] Verify site: https://osimmarefah.github.io/WEB-OSIM-MA/
-- [ ] Netlify fix: Set Node.js 20+ or \"npm ci && npm run build\". Or remove Netlify deploy.
-- [ ] If issues, repo Settings > Pages > gh-pages / root
+Gedung OSIM MA Refah Islami image now displays correctly in Home page Hero section using assets/gedungma.JPG.
 
-Repo: https://github.com/osimmarefah/WEB-OSIM-MA
+**Changes:**
+- Fixed src paths to "/assets/" in Home.jsx (gedungma & fotobersama) and About.jsx (fotobersama)
+- Resolved TypeScript error in About.jsx SectionHeading
+
+Dev server running. Visit http://localhost:5173 to verify.
+

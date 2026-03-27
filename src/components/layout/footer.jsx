@@ -21,7 +21,7 @@ src="image/logoosim.png"
               </div>
             </div>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
-              Organisasi Siswa Intra Madrasah — building future leaders with Islamic values and academic excellence.
+              Organisasi Santri Intra Madrasah — building future leaders with Islamic values and academic excellence.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ src="image/logoosim.png"
               </div>
               <div className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Mail className="w-4 h-4 shrink-0" />
-                <span>osim@marefahislami.sch.id</span>
+                <span>osimmarefah@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Phone className="w-4 h-4 shrink-0" />
