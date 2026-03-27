@@ -2,8 +2,9 @@
 
 **Done:**
 - [x] npm run build (dist generated)
-- [x] Plan confirmed by user
-- [x] Rolled back deploy (reset to b9d26278 Deploy site to GitHub Pages, force pushed to gh-pages)
+- [x] Rolled back deploy (reset to b9d26278, force pushed)
+- [x] Added all images (image/ dir)
+- [x] Ganti gedungma.JPG -> fotobersama.JPG di Home.jsx (hero & group)
 
 **Next Steps:**
 - [ ] Verify site: https://osimmarefah.github.io/WEB-OSIM-MA/
