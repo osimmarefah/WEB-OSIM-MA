@@ -5,10 +5,10 @@ import { ArrowRight, BookOpen, Users, Award, Star, ChevronRight } from 'lucide-r
 import SectionHeading from '../components/shared/SectionHeading';
 
 const stats = [
-  { number: '500+', label: 'Active Members' },
-  { number: '12', label: 'Divisions' },
-  { number: '50+', label: 'Annual Events' },
-  { number: '15+', label: 'Years of Excellence' },
+  { number: '28', label: 'Active Members' },
+  { number: '6', label: 'Divisions' },
+  { number: '100+', label: 'Hafidh Quran' },
+  { number: '8', label: 'Years of Excellence' },
 ];
 
 const highlights = [
