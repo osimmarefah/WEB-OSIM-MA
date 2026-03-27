@@ -1,23 +1,10 @@
-<<<<<<< Updated upstream
-# Favicon Update & Deploy TODO
-
-**Done:**
-- [x] Add logo to browser tab favicon
-- [x] npm run build (dist generated)
-
-**Next Steps:**
-- [ ] Test dist/index.html favicon (should be open now)
-- [ ] User prompt for GitHub Pages deploy
-- [ ] Install gh CLI if needed
-- [ ] Push & enable GitHub Pages
-=======
-# Task: Update title to "OSIM MA Refah Islami" and logo to image/logoosim.png
+# GitHub Push and Cleanup Task
 
 ## Steps:
-- [ ] 1. Edit index.html: Change browser title from "Base44 APP" to "OSIM MA Refah Islami"
-- [ ] 2. Verify Navbar.jsx logo (already correct)
-- [ ] 3. Test changes
-- [ ] 4. Complete task
->>>>>>> Stashed changes
-
-Repo ready at https://github.com/osimmarefah/WEB-OSIM-MA
+- [x] Step 1: Confirm plan and user approval
+- [ > Step 2: Clean temp analysis files (tracked_files.txt, untracked_files.txt)
+- [ ] Step 3: Stage all changes (git add -A)
+- [ ] Step 4: Commit changes
+- [ ] Step 5: Push to GitHub (origin blackboxai/osim-update)
+- [ ] Step 6: Post-push cleanup (git clean if untracked files)
+- [ ] Step 7: Verify clean status and complete
