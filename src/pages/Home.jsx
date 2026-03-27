@@ -36,7 +36,7 @@ export default function Home() {
       <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="image/gedungma.JPG"
+            src="./gedungma.JPG"
             alt="Gedung OSIM MA Refah Islami"
             className="w-full h-full object-cover"
           />
@@ -196,7 +196,7 @@ export default function Home() {
             >
               <div className="absolute -top-4 -right-4 w-full h-full bg-secondary/20 rounded-2xl" />
               <img
-                src="image/fotobersama.JPG"
+                src="./fotobersama.JPG"
                 alt="Foto Bersama OSIM MA Refah Islami"
                 className="relative rounded-2xl shadow-2xl w-full object-cover aspect-video"
               />

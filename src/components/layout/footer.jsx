@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img 
-                src="image/logoosim.png" 
+                src="./logoosim.png" 
                 alt="OSIM Logo" 
                 className="h-12 w-12 rounded-full object-cover bg-white/10"
               />
@@ -86,3 +86,4 @@ export default function Footer() {
     </footer>
   );
 }
+

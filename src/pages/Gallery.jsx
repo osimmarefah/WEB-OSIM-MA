@@ -5,8 +5,8 @@ import PageHero from '../components/shared/PageHero';
 import SectionHeading from '../components/shared/SectionHeading';
 
 const galleryItems = [
-{
-    src: 'image/fotobersama.JPG',
+  {
+    src: './fotobersama.JPG',
     alt: 'OSIM Group Photo',
     category: 'Events',
     title: 'OSIM Family Photo 2025/2026',
