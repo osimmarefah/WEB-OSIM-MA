@@ -76,7 +76,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-lg md:text-xl text-white/75 mb-10 leading-relaxed max-w-lg"
             >
-              Nurturing future leaders through Islamic values, academic excellence, and community service.
+              Membina pemimpin masa depan melalui nilai-nilai Islam, keunggulan akademis, dan pengabdian masyarakat.
             </motion.p>
 
             <motion.div
