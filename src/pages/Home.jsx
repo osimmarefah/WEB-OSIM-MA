@@ -14,18 +14,18 @@ const stats = [
 const highlights = [
   {
     icon: BookOpen,
-    title: 'Academic Excellence',
-    description: 'Fostering intellectual growth through knowledge-driven programs and competitions.',
+    title: 'Keunggulan Akademik',
+    description: 'Mendorong pertumbuhan intelektual melalui program dan kompetisi berbasis pengetahuan.',
   },
   {
     icon: Users,
-    title: 'Leadership Development',
-    description: 'Building future leaders with strong character, integrity, and Islamic values.',
+    title: 'Pengembangan Kepemimpinan',
+    description: 'Membangun pemimpin masa depan dengan karakter yang kuat, integritas, dan nilai-nilai Islam.',
   },
   {
     icon: Award,
-    title: 'Achievement & Innovation',
-    description: 'Celebrating student achievements across academics, sports, arts, and community service.',
+    title: 'Prestasi & Inovasi',
+    description: "Mengapresiasi prestasi santri di bidang syar'i, akademi, olahraga, seni, dan pengabdian masyarakat.",
   },
 ];
 
@@ -137,7 +137,7 @@ export default function Home() {
           <SectionHeading
             label="What We Do"
             title="Empowering Students"
-            description="OSIM MA Refah Islami is dedicated to developing well-rounded students through comprehensive programs."
+            description="OSIM MA Refah Islami berdedikasi untuk mengembangkan siswa yang berwawasan luas melalui program-program komprehensif."
           />
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -176,8 +176,7 @@ export default function Home() {
                 Together We <span className="text-accent">Grow</span>
               </h2>
               <p className="text-primary-foreground/70 leading-relaxed mb-8">
-                At OSIM MA Refah Islami, we believe in the power of togetherness. Our organization is a family where every 
-                student is valued, supported, and empowered to reach their fullest potential in both academic and spiritual growth.
+                Di OSIM MA Refah Islami, kami percaya pada kekuatan kebersamaan. Organisasi kami adalah sebuah keluarga di mana setiap santri dihargai, didukung, dan diberdayakan untuk mencapai potensi maksimal mereka dalam pertumbuhan akademis dan spiritual.
               </p>
               <Link
                 to="/divisions"
