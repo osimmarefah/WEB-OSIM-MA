@@ -11,7 +11,11 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img 
+<<<<<<< Updated upstream
 src="image/logoosim.png" 
+=======
+src="./logoosim.png" 
+>>>>>>> Stashed changes
                 alt="OSIM Logo" 
                 className="h-12 w-12 rounded-full object-cover bg-white/10"
               />
