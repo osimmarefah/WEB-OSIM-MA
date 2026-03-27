@@ -1,13 +1,13 @@
-# Favicon Update & Deploy TODO
+# Deploy to GitHub TODO
 
 **Done:**
-- [x] Add logo to browser tab favicon
 - [x] npm run build (dist generated)
+- [x] Plan confirmed by user
+- [x] Rolled back deploy (reset to b9d26278 Deploy site to GitHub Pages, force pushed to gh-pages)
 
 **Next Steps:**
-- [ ] Test dist/index.html favicon (should be open now)
-- [ ] User prompt for GitHub Pages deploy
-- [ ] Install gh CLI if needed
-- [ ] Push & enable GitHub Pages
+- [ ] Verify site: https://osimmarefah.github.io/WEB-OSIM-MA/
+- [ ] Netlify fix: Set Node.js 20+ or \"npm ci && npm run build\". Or remove Netlify deploy.
+- [ ] If issues, repo Settings > Pages > gh-pages / root
 
-Repo ready at https://github.com/osimmarefah/WEB-OSIM-MA
+Repo: https://github.com/osimmarefah/WEB-OSIM-MA
