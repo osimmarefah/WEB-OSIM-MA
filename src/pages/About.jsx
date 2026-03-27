@@ -35,19 +35,16 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  OSIM (Organisasi Siswa Intra Madrasah) MA Refah Islami is the official student organization 
-                  that serves as the primary vehicle for student governance, development, and engagement within 
-                  our beloved madrasah.
+                  OSIM (Organisasi Santri Intra Madrasah) MA Refah Islami adalah organisasi santri
+                  resmi yang berfungsi sebagai wahana utama untuk tata kelola, pengembangan, dan keterlibatan santri di madrasah tercinta kita.
                 </p>
                 <p>
-                  Established with the mission to nurture responsible, knowledgeable, and virtuous individuals, 
-                  OSIM bridges the gap between students and the school administration, ensuring every student's 
-                  voice is heard and every potential is realized.
+                  Didirikan dengan misi untuk membina individu yang bertanggung jawab, berpengetahuan, dan berbudi luhur, OSIM menjembatani 
+                  kesenjangan antara santri dan administrasi sekolah, memastikan setiap suara santri didengar dan setiap potensi diwujudkan.
                 </p>
                 <p>
-                  Through a diverse range of programs — from academic competitions and Islamic studies circles 
-                  to community outreach and cultural celebrations — we create an environment where students can 
-                  flourish both spiritually and intellectually.
+                  Melalui beragam program — mulai dari kompetisi akademik dan lingkaran studi Islam hingga kegiatan pengabdian masyarakat
+                   dan perayaan budaya — kami menciptakan lingkungan di mana santri dapat berkembang baik secara spiritual maupun intelektual.
                 </p>
               </div>
             </motion.div>
