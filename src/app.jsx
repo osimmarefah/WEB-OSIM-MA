@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Layout from './components/layout/Layout';
-import Home from './pages/Home';
-import About from './pages/About';
-import Divisions from './pages/Divisions';
-import Structure from './pages/Structure';
-import LogoPhilosophy from './pages/LogoPhilosophy';
-import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
+import Layout from './components/layout/Layout.jsx';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Divisions from './pages/Divisions.jsx';
+import Structure from './pages/Structure.jsx';
+import LogoPhilosophy from './pages/LogoPhilosophy.jsx';
+import Gallery from './pages/Gallery.jsx';
+import Contact from './pages/Contact.jsx';
 import PageNotFound from './libs/PageNotFound.jsx';
 
 function App() {
