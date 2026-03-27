@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3">
             <img 
-src="image/logoosim.png" 
+src="/assets/logoosim.png" 
               alt="OSIM Logo" 
               className="h-12 w-12 rounded-full object-cover"
             />
