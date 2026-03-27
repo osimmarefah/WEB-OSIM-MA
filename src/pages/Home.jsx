@@ -56,7 +56,7 @@ export default function Home() {
               transition={{ duration: 0.8 }}
             >
               <span className="inline-block px-4 py-1.5 rounded-full bg-secondary/20 border border-secondary/30 text-secondary text-xs font-semibold tracking-widest uppercase mb-6">
-                Organisasi Siswa Intra Madrasah
+                Organisasi Santri Intra Madrasah
               </span>
             </motion.div>
 
