@@ -1,16 +1,13 @@
-# Fix Blank Page Complete!
+# Favicon Update & Deploy TODO
 
 **Done:**
-- [x] npm install
-- [x] npm run dev setup
-- [x] Fix all import errors (app.jsx, libs, UI utils)
-- [x] Create app-params.js
-- [x] Fix UI components
-- [x] Bypass auth for basic render
+- [x] Add logo to browser tab favicon
+- [x] npm run build (dist generated)
 
-**Next Manual:**
-- `npm run dev`
-- localhost:5173
-- Setup Base44 env if auth needed: VITE_BASE44_APP_BASE_URL etc.
+**Next Steps:**
+- [ ] Test dist/index.html favicon (should be open now)
+- [ ] User prompt for GitHub Pages deploy
+- [ ] Install gh CLI if needed
+- [ ] Push & enable GitHub Pages
 
-App ready!
+Repo ready at https://github.com/osimmarefah/WEB-OSIM-MA
