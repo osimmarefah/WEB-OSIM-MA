@@ -17,7 +17,7 @@ export default function About() {
       <PageHero
         title="About Us"
         subtitle="Discover the heart and soul of OSIM MA Refah Islami"
-        backgroundImage="/__generating__/img_890b9eff5722.png"
+        backgroundImage="aboutusimage.JPG"
       />
 
       {/* About Content */}
