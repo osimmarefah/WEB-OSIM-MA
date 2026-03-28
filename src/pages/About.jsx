@@ -59,7 +59,7 @@ export default function About() {
               <img
                 src="./fotobersama.JPG"
                 alt="OSIM members"
-                className="relative rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
+                className="relative rounded-2xl shadow-2xl w-full object-cover aspect-video"
               />
             </motion.div>
           </div>
@@ -119,7 +119,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
-                  Ciptakan dampak komunitas yang bermakna melalui pelayanan.
+                  Create meaningful community impact through service
                 </li>
               </ul>
             </motion.div>
