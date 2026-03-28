@@ -87,9 +87,9 @@ export default function About() {
               </div>
               <h3 className="font-heading text-2xl font-bold mb-4">Our Vision</h3>
               <p className="text-primary-foreground/70 leading-relaxed">
-                To become a leading student organization that produces generations of Muslims who are 
-                knowledgeable, virtuous, and globally competitive — rooted in Islamic values and 
-                committed to building a better world.
+                Menjadi organisasi santri terkemuka yang menghasilkan generasi 
+                Muslim yang berpengetahuan luas, berbudi luhur, dan berdaya saing global — berakar pada nilai-nilai Islam dan
+                 berkomitmen untuk membangun dunia yang lebih baik.
               </p>
             </motion.div>
 
@@ -107,19 +107,19 @@ export default function About() {
               <ul className="space-y-3 text-primary-foreground/70">
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
-                  Foster academic excellence through enrichment programs
+                  Mendorong keunggulan syar'i melalui program islami.
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
-                  Strengthen Islamic values and spiritual development
+                  Memperkuat nilai-nilai Islam dan pengembangan spiritual.
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
-                  Cultivate leadership, teamwork, and social responsibility
+                  Kembangkan kepemimpinan, kerja tim, dan tanggung jawab sosial.
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
-                  Create meaningful community impact through service
+                  Ciptakan dampak komunitas yang bermakna melalui pelayanan.
                 </li>
               </ul>
             </motion.div>
