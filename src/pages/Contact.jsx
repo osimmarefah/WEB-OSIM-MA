@@ -10,10 +10,10 @@ import { toast } from 'sonner';
 
 const contactInfo = [
   { icon: MapPin, title: 'Address', detail: 'MA Refah Islami, Indonesia' },
-  { icon: Mail, title: 'Email', detail: 'osim@marefahislami.sch.id' },
-  { icon: Phone, title: 'Phone', detail: '+62 XXX-XXXX-XXXX' },
+  { icon: Mail, title: 'Email', detail: 'osimmarefah@gmail.com' },
+  { icon: Phone, title: 'Phone', detail: '+62 851-6860-9316' },
   { icon: Clock, title: 'Office Hours', detail: 'Mon - Fri: 07:00 - 15:00 WIB' },
-  { icon: Globe, title: 'Social Media', detail: '@osim_refah_islami' },
+  { icon: Globe, title: 'Social Media', detail: '@osim.marefahislami' },
 ];
 
 export default function Contact() {
