@@ -21,7 +21,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
-              Organisasi Siswa Intra Madrasah — building future leaders with Islamic values and academic excellence.
+              Organisasi Santri Intra Madrasah — membangun pemimpin masa depan dengan nilai-nilai Islam dan keunggulan akademik.
             </p>
           </div>
 
@@ -56,11 +56,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Mail className="w-4 h-4 shrink-0" />
-                <span>osim@marefahislami.sch.id</span>
+                <span>osimmarefahislami@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Phone className="w-4 h-4 shrink-0" />
-                <span>+62 XXX-XXXX-XXXX</span>
+                <span>+62 851-6860-9316</span>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function Footer() {
             © 2026 OSIM MA Refah Islami. All rights reserved.
           </p>
           <p className="text-xs text-primary-foreground/50 flex items-center gap-1">
-            Made with <Heart className="w-3 h-3 text-secondary" /> by OSIM
+            Made with <Heart className="w-3 h-3 text-secondary" /> by Fauzan M
           </p>
         </div>
       </div>

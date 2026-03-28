@@ -5,10 +5,10 @@ import PageHero from '../components/shared/PageHero';
 import SectionHeading from '../components/shared/SectionHeading';
 
 const values = [
-  { icon: Heart, title: 'Akhlaqul Karimah', description: 'We uphold noble character and moral excellence as the foundation of every action.' },
-  { icon: Target, title: 'Discipline & Integrity', description: 'Commitment to order, responsibility, and honesty in all our endeavors.' },
-  { icon: Eye, title: 'Visionary Leadership', description: 'Developing forward-thinking leaders who serve their communities with wisdom.' },
-  { icon: Sparkles, title: 'Innovation & Creativity', description: 'Encouraging creative thinking and innovative approaches to problem-solving.' },
+  { icon: Heart, title: 'Akhlaqul Karimah', description: 'Kami menjunjung tinggi karakter mulia dan keunggulan moral sebagai landasan setiap tindakan.' },
+  { icon: Target, title: 'Disiplin & Integritas', description: 'Komitmen terhadap ketertiban, tanggung jawab, dan kejujuran dalam semua usaha kami.' },
+  { icon: Eye, title: 'Kepemimpinan Visioner', description: 'Mengembangkan pemimpin berwawasan ke depan yang melayani komunitas mereka dengan bijaksana.' },
+  { icon: Sparkles, title: 'Inovasi & Kreativitas', description: 'Mendorong pemikiran kreatif dan pendekatan inovatif dalam pemecahan masalah.' },
 ];
 
 export default function About() {
