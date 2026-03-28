@@ -59,7 +59,7 @@ export default function About() {
               <img
                 src="./fotobersama.JPG"
                 alt="OSIM members"
-                className="relative rounded-2xl shadow-2xl w-full object-cover aspect-video"
+                className="relative rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
               />
             </motion.div>
           </div>
