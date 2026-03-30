@@ -12,7 +12,6 @@ const structureLevels = [
     borderColor: 'border-accent/30',
     members: [
       { title: 'Ketua Umum (Chairperson)', description: 'Leads the entire OSIM organization and represents it in all matters.' },
-      { title: 'Wakil Ketua (Vice Chairperson)', description: 'Assists the chairperson and leads in their absence.' },
     ],
   },
   {
@@ -21,8 +20,8 @@ const structureLevels = [
     color: 'from-primary to-primary/70',
     borderColor: 'border-primary/30',
     members: [
-      { title: 'Sekretaris 1 & 2 (Secretaries)', description: 'Manages correspondence, documentation, and organizational records.' },
-      { title: 'Bendahara 1 & 2 (Treasurers)', description: 'Handles financial planning, budgeting, and accounting.' },
+      { title: 'Sekretaris (Secretary)', description: 'Manages correspondence, documentation, and organizational records.' },
+      { title: 'Bendahara (Treasurer)', description: 'Handles financial planning, budgeting, and accounting.' },
     ],
   },
   {
@@ -31,12 +30,12 @@ const structureLevels = [
     color: 'from-secondary to-accent',
     borderColor: 'border-secondary/30',
     members: [
-      { title: 'Academic Division Head', description: 'Coordinates all academic enrichment programs.' },
-      { title: 'Islamic Studies Head (Rohis)', description: 'Manages spiritual and religious activities.' },
-      { title: 'Public Relations Head', description: 'Oversees communication and media strategy.' },
-      { title: 'Arts & Culture Head', description: 'Leads creative and cultural initiatives.' },
-      { title: 'Sports & Health Head', description: 'Manages athletics and wellness programs.' },
-      { title: 'Technology Head', description: 'Drives digital innovation and tech programs.' },
+      { title: 'Kepala Divisi Olahraga', description: 'Koordinasi program olahraga dan kebugaran siswa.' },
+      { title: 'Kepala Divisi Bahasa Arab', description: 'Pengembangan kemampuan berbahasa Arab.' },
+      { title: 'Kepala Divisi Multimedia', description: 'Produksi dan pengelolaan konten multimedia.' },
+      { title: 'Kepala Divisi Ubudiyah', description: 'Kegiatan ibadah dan penguatan rohani.' },
+      { title: 'Kepala Divisi Kesenian', description: 'Pengembangan seni dan pertunjukan budaya.' },
+      { title: 'Kepala Divisi Wirausaha', description: 'Pelatihan kewirausahaan dan manajemen usaha.' },
     ],
   },
 ];

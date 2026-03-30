@@ -1,24 +1,19 @@
-# Image Deployment Fix - COMPLETE
+# OSIM Structure Update to 6 Divisions
 
-## Completed Steps:
-- [x] 1. Create src/assets/ and move images (skipped - used imports from root image/)
-- [x] 2. Update imports and src paths in Navbar.jsx, footer.jsx 
-- [x] 3. Update imports and src paths in Home.jsx
-- [x] 4. Update imports and src paths in Gallery.jsx  
-- [x] 5. Update imports and src paths in About.jsx
-- [x] 6. Run `npm run build` and verify dist/assets/ (build running)
-- [x] 7. Run `npm run preview` to test locally
+Current branch: blackboxai/osim-update
 
-## Result:
-Images now imported as modules in JSX files. Vite will bundle them to `dist/assets/` on `npm run build`.
-
-**To deploy to Netlify:**
-1. Run `npm run build` (already running - wait for complete).
-2. Drag `dist/` folder to Netlify deploy dropzone or use CLI/netlify.toml.
-
-Images will be available (hashed names like logoosim-[hash].png).
-
-**Note:** Add `image/fotobersama.JPG` if missing (used in multiple pages).
-
-Test locally with `npm run preview`.
-
+## Steps to Complete:
+- [ ] 1. Update src/pages/Divisions.jsx:
+  - Replace divisions array with 6 new: Olahraga, Bahasa Arab, Multimedia, Ubudiyah, Kesenian, Wirausaha (add icons, descriptions)
+  - Change title to \"6 Pilar Keunggulan\"
+  - Update members to only: Ketua Umum, Sekretaris, Bendahara (3 cards, lg:grid-cols-3)
+- [ ] 2. Update src/pages/Structure.jsx:
+  - Leadership: only Ketua Umum
+  - Administrative: Sekretaris, Bendahara (remove wakil, 1&2)
+  - Division Heads: Update to heads for 6 new divisions
+- [ ] 3. git add .
+- [ ] 4. git commit -m \"feat: Reduce to 6 divisions (Olahraga, Bahasa Arab, Multimedia, Ubudiyah, Kesenian, Wirausaha). Remove wakil ketua and extra secretaries\"
+- [ ] 5. npm run dev
+- [ ] 6. Manually test /divisions and /structure pages
+- [ ] 7. git push
+- [ ] 8. Mark all complete, attempt_completion
