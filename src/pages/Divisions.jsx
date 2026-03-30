@@ -1,22 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Activity, BookOpen, Mic2, Heart, Palette, Users } from 'lucide-react';
+import { Activity, BookOpen, Camera, DollarSign, Home, Palette, Users } from 'lucide-react';
 import PageHero from '../components/shared/PageHero';
 import SectionHeading from '../components/shared/SectionHeading';
 
 const divisions = [
   { icon: Activity, name: 'Olahraga', description: 'Mengkoordinasikan kegiatan olahraga, kebugaran, dan kompetisi atletik siswa.', color: 'bg-accent/10 text-accent' },
   { icon: BookOpen, name: 'Bahasa Arab', description: 'Meningkatkan kemampuan bahasa Arab melalui kelas, diskusi, dan kontes.', color: 'bg-primary/10 text-primary' },
-  { icon: Mic2, name: 'Multimedia', description: 'Mengelola produksi video, foto, desain grafis, dan konten digital OSIM.', color: 'bg-secondary/10 text-secondary' },
-  { icon: Heart, name: 'Ubudiyah', description: 'Memperkuat ibadah, tahfidz Quran, dan kegiatan keagamaan santri.', color: 'bg-accent/10 text-accent' },
+{ icon: Camera, name: 'Multimedia', description: 'Mengelola produksi video, foto, desain grafis, dan konten digital OSIM.', color: 'bg-secondary/10 text-secondary' },
+{ icon: Home, name: 'Ubudiyah', description: 'Memperkuat ibadah, tahfidz Quran, dan kegiatan keagamaan santri.', color: 'bg-accent/10 text-accent' },
   { icon: Palette, name: 'Kesenian', description: 'Mengembangkan bakat seni, musik, teater, dan pertunjukan budaya.', color: 'bg-primary/10 text-primary' },
-  { icon: Users, name: 'Wirausaha', description: 'Melatih kewirausahaan, manajemen usaha, dan kemandirian ekonomi siswa.', color: 'bg-secondary/10 text-secondary' },
+{ icon: DollarSign, name: 'Wirausaha', description: 'Melatih kewirausahaan, manajemen usaha, dan kemandirian ekonomi siswa.', color: 'bg-secondary/10 text-secondary' },
 ];
 
 const members = [
-  { name: 'Ketua Umum', role: 'Chairperson', desc: 'Leads the entire organization' },
-  { name: 'Sekretaris', role: 'Secretary', desc: 'Manages administration & records' },
-  { name: 'Bendahara', role: 'Treasurer', desc: 'Oversees financial management' },
+  { name: 'Miqdad Haqqoni', role: 'Ketua', desc: 'Leads the entire organization' },
+  { name: 'Ahmad Nayif', role: 'Sekretaris', desc: 'Manages administration & records' },
+  { name: 'Ihfadz Qolby', role: 'Bendahara', desc: 'Oversees financial management' },
 ];
 
 export default function Divisions() {
