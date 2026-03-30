@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Activity, BookOpen, Camera, DollarSign, Home, Palette, Users } from 'lucide-react';
+import { Activity, BookOpen, Camera, DollarSign, Home, Leaf, Users } from 'lucide-react';
 import PageHero from '../components/shared/PageHero';
 import SectionHeading from '../components/shared/SectionHeading';
 
@@ -9,7 +9,7 @@ const divisions = [
   { icon: BookOpen, name: 'Bahasa Arab', description: 'Meningkatkan kemampuan bahasa Arab melalui kelas, diskusi, dan kontes.', color: 'bg-primary/10 text-primary' },
 { icon: Camera, name: 'Multimedia', description: 'Mengelola produksi video, foto, desain grafis, dan konten digital OSIM.', color: 'bg-secondary/10 text-secondary' },
 { icon: Home, name: 'Ubudiyah', description: 'Memperkuat ibadah, tahfidz Quran, dan kegiatan keagamaan santri.', color: 'bg-accent/10 text-accent' },
-  { icon: Palette, name: 'Kesenian', description: 'Mengembangkan bakat seni, musik, teater, dan pertunjukan budaya.', color: 'bg-primary/10 text-primary' },
+{ icon: Leaf, name: 'Kebersihan', description: 'Menjaga kebersihan lingkungan sekolah dan kampanye hygiene.', color: 'bg-primary/10 text-primary' },
 { icon: DollarSign, name: 'Wirausaha', description: 'Melatih kewirausahaan, manajemen usaha, dan kemandirian ekonomi siswa.', color: 'bg-secondary/10 text-secondary' },
 ];
 
