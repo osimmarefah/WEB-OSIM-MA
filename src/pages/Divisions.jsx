@@ -13,6 +13,12 @@ const divisions = [
   { icon: Users, name: 'Wirausaha', description: 'Melatih kewirausahaan, manajemen usaha, dan kemandirian ekonomi siswa.', color: 'bg-secondary/10 text-secondary' },
 ];
 
+const members = [
+  { name: 'Ketua Umum', role: 'Chairperson', desc: 'Leads the entire organization' },
+  { name: 'Sekretaris', role: 'Secretary', desc: 'Manages administration & records' },
+  { name: 'Bendahara', role: 'Treasurer', desc: 'Oversees financial management' },
+];
+
 export default function Divisions() {
   return (
     <div>
@@ -61,11 +67,7 @@ export default function Divisions() {
           />
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            [
-              { name: 'Ketua Umum', role: 'Chairperson', desc: 'Leads the entire organization' },
-              { name: 'Sekretaris', role: 'Secretary', desc: 'Manages administration & records' },
-              { name: 'Bendahara', role: 'Treasurer', desc: 'Oversees financial management' },
-            ].map((member, i) => (
+            {members.map((member, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 30 }}
