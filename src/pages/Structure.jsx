@@ -34,7 +34,7 @@ const structureLevels = [
       { title: 'Anshor Dwi Darmawan (Koordinator Bahasa Arab)', description: 'Pengembangan kemampuan berbahasa Arab.' },
       { title: 'Achmad Fauzan Muttaqien (Koordinator Multimedia)', description: 'Produksi dan pengelolaan konten multimedia.' },
       { title: 'Muhammad Jawwami Alkalim (Koordinator Ubudiyah)', description: 'Kegiatan ibadah dan penguatan rohani.' },
-{ title: 'Salman Fauzan Akbar (Koordinator Kebersihan)', description: 'Menjaga kebersihan lingkungan sekolah.' },
+      { title: 'Salman Fauzan Akbar (Koordinator Kebersihan)', description: 'Menjaga kebersihan lingkungan sekolah.' },
       { title: 'Farhat Al-Firdausy (Koordinator Wirausaha)', description: 'Pelatihan kewirausahaan dan manajemen usaha.' },
     ],
   },

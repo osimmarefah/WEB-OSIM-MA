@@ -6,16 +6,16 @@ import SectionHeading from '../components/shared/SectionHeading';
 
 const galleryItems = [
   {
-    src: './fotobersama.JPG',
+    src: './fotoLDKS.JPG',
     alt: 'OSIM Group Photo',
-    category: 'Events',
-    title: 'OSIM Family Photo 2025/2026',
+    category: 'Annual Events',
+    title: 'Pelantikan OSIM MA Refah Islami 2026-2027',
   },
   {
     src: '/__generating__/img_890b9eff5722.png',
     alt: 'Classroom Activity',
-    category: 'Academic',
-    title: 'Collaborative Learning Session',
+    category: 'Events',
+    title: 'Latihan Dasar Kepemimpinan Santri (LDKS) 2026',
   },
   {
     src: '/__generating__/img_d569027d4973.png',
