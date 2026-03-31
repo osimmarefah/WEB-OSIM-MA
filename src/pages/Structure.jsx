@@ -11,7 +11,7 @@ const structureLevels = [
     color: 'from-accent to-secondary',
     borderColor: 'border-accent/30',
     members: [
-      { title: 'Ketua Umum (Chairperson)', description: 'Leads the entire OSIM organization and represents it in all matters.' },
+      { title: 'Miqdad Haqqoni (Ketua OSIM)', description: 'Leads the entire OSIM organization and represents it in all matters.' },
     ],
   },
   {
@@ -20,8 +20,8 @@ const structureLevels = [
     color: 'from-primary to-primary/70',
     borderColor: 'border-primary/30',
     members: [
-      { title: 'Sekretaris (Secretary)', description: 'Manages correspondence, documentation, and organizational records.' },
-      { title: 'Bendahara (Treasurer)', description: 'Handles financial planning, budgeting, and accounting.' },
+      { title: 'Ahmad Nayif (Sekretaris)', description: 'Manages correspondence, documentation, and organizational records.' },
+      { title: 'Ihfadz Qolby (Bendahara)', description: 'Handles financial planning, budgeting, and accounting.' },
     ],
   },
   {
@@ -30,12 +30,12 @@ const structureLevels = [
     color: 'from-secondary to-accent',
     borderColor: 'border-secondary/30',
     members: [
-      { title: 'Kepala Divisi Olahraga', description: 'Koordinasi program olahraga dan kebugaran siswa.' },
-      { title: 'Kepala Divisi Bahasa Arab', description: 'Pengembangan kemampuan berbahasa Arab.' },
-      { title: 'Kepala Divisi Multimedia', description: 'Produksi dan pengelolaan konten multimedia.' },
-      { title: 'Kepala Divisi Ubudiyah', description: 'Kegiatan ibadah dan penguatan rohani.' },
-      { title: 'Kepala Divisi Kesenian', description: 'Pengembangan seni dan pertunjukan budaya.' },
-      { title: 'Kepala Divisi Wirausaha', description: 'Pelatihan kewirausahaan dan manajemen usaha.' },
+      { title: 'Muhammad Bintang Zakirin (Koordinator Olahraga)', description: 'Koordinasi program olahraga dan kebugaran siswa.' },
+      { title: 'Anshor Dwi Darmawan (Koordinator Bahasa Arab)', description: 'Pengembangan kemampuan berbahasa Arab.' },
+      { title: 'Achmad Fauzan Muttaqien (Koordinator Multimedia)', description: 'Produksi dan pengelolaan konten multimedia.' },
+      { title: 'Muhammad Jawwami Alkalim (Koordinator Ubudiyah)', description: 'Kegiatan ibadah dan penguatan rohani.' },
+{ title: 'Salman Fauzan Akbar (Koordinator Kebersihan)', description: 'Menjaga kebersihan lingkungan sekolah.' },
+      { title: 'Farhat Al-Firdausy (Koordinator Wirausaha)', description: 'Pelatihan kewirausahaan dan manajemen usaha.' },
     ],
   },
 ];
