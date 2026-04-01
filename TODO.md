@@ -1,19 +1,10 @@
-# OSIM Structure Update to 6 Divisions
+# TODO: Update LogoPhilosophy.jsx Filosofi Descriptions
 
-Current branch: blackboxai/osim-update
-
-## Steps to Complete:
-- [ ] 1. Update src/pages/Divisions.jsx:
-  - Replace divisions array with 6 new: Olahraga, Bahasa Arab, Multimedia, Ubudiyah, Kesenian, Wirausaha (add icons, descriptions)
-  - Change title to \"6 Pilar Keunggulan\"
-  - Update members to only: Ketua Umum, Sekretaris, Bendahara (3 cards, lg:grid-cols-3)
-- [ ] 2. Update src/pages/Structure.jsx:
-  - Leadership: only Ketua Umum
-  - Administrative: Sekretaris, Bendahara (remove wakil, 1&2)
-  - Division Heads: Update to heads for 6 new divisions
-- [ ] 3. git add .
-- [ ] 4. git commit -m \"feat: Reduce to 6 divisions (Olahraga, Bahasa Arab, Multimedia, Ubudiyah, Kesenian, Wirausaha). Remove wakil ketua and extra secretaries\"
-- [ ] 5. npm run dev
-- [ ] 6. Manually test /divisions and /structure pages
-- [ ] 7. git push
-- [ ] 8. Mark all complete, attempt_completion
+## Plan Breakdown
+1. ✅ [Complete] Create TODO.md to track progress
+2. ✅ Update intro paragraph in LogoPhilosophy.jsx with new Indonesian intro
+3. ✅ Replace logoElements array with 5 new Indonesian elements (Warna Hijau, Visi dan Misi, Bentuk Lingkaran, Tulisan Arab, Nama "Refah Islami")
+4. ✅ Update Color Palette section to focus on Warna Hijau or integrate
+5. ✅ Verify JSX validity, preserve layout/animations
+6. ✅ Test changes: Run `npm run dev`
+7. ✅ [Complete] Attempt completion
