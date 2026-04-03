@@ -18,22 +18,24 @@ const galleryItems = [
     title: 'Latihan Dasar Kepemimpinan Santri (LDKS) 2026',
   },
   {
-    src: '/__generating__/img_d569027d4973.png',
-    alt: 'Community Service',
-    category: 'Community',
-    title: 'Community Service Day',
-  },
-  {
-    src: '/__generating__/img_6253fab9d5a4.png',
-    alt: 'Cultural Performance',
+    src: './upacara172025.JPG',
+    alt: 'Events',
     category: 'Events',
-    title: 'Annual Cultural Festival',
+    title: 'Upacara 17 Agustus 2025',
   },
+
   {
-    src: '/__generating__/img_f444a72d05c2.png',
-    alt: 'Competition Winners',
-    category: 'Achievement',
-    title: 'Science Competition Winners',
+    src: '/matsama2025.JPG',
+    alt: 'Events',
+    category: 'Community',
+    title: 'Masa Ta’aruf Santri MA Refah Islami 2025',
+  },
+  
+    {
+    src: '/bukabersamakyai.JPG',
+    alt: 'Ifthor Bersama Kyai',
+    category: 'Community',
+    title: 'Buka Bersama KH. Farid Dhofir, Lc. M.si.',
   },
   {
     src: '/__generating__/img_03d6c189c3fd.png',

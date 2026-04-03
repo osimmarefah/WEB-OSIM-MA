@@ -48,7 +48,7 @@ export default function LogoPhilosophy() {
       <PageHero
         title="Logo Philosophy"
         subtitle="Understanding the meaning and symbolism behind our identity"
-        backgroundImage="/photo.png"
+        backgroundImage="/logoosim.png"
       />
 
       {/* Logo Display */}
