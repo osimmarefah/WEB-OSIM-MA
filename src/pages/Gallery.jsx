@@ -38,10 +38,31 @@ const galleryItems = [
     title: 'Buka Bersama KH. Farid Dhofir, Lc. M.si.',
   },
   {
-    src: '/__generating__/img_03d6c189c3fd.png',
-    alt: 'Islamic Calligraphy',
-    category: 'Academic',
-    title: 'Islamic Calligraphy Workshop',
+    src: '/mukhoyyam2025.JPG',
+    alt: 'Community',
+    category: 'Community',
+    title: 'Mukhoyyam Qur’an MA Refah Islami 2025',
+  },
+
+  {
+    src: '/senam.JPG',
+    alt: 'Community',
+    category: 'Community',
+    title: 'Senam Bersama OSIM MA Refah Islami 2025',
+  },
+
+  {
+    src: '/mukhoyyamakbar2025.JPG',
+    alt: 'Events',
+    category: 'Events',
+    title: 'Mukhoyyam Akbar Refah Islami 2025',
+  },
+
+  {
+    src: '/lomba17agustus.JPG',
+    alt: 'Community',
+    category: 'Community',
+    title: 'Lomba 17 Agustus 2025',
   },
 ];
 

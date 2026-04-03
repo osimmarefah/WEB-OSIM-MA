@@ -66,7 +66,7 @@ export default function Structure() {
           >
             <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-8 border border-primary/10 text-center">
               <span className="text-xs font-semibold tracking-[0.2em] uppercase text-primary mb-2 block">Advisory Board</span>
-              <h3 className="font-heading text-xl font-bold mb-2">Pembina OSIM</h3>
+              <h3 className="font-heading text-xl font-bold mb-2">Athif S.E.</h3>
               <p className="text-muted-foreground text-sm max-w-md mx-auto">
                 School administration and teacher advisors who provide guidance, mentorship, and oversight to ensure OSIM stays aligned with the school's vision.
               </p>
