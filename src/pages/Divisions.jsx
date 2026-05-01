@@ -25,7 +25,7 @@ export default function Divisions() {
       <PageHero
         title="Divisions & Members"
         subtitle="Each division plays a vital role in our mission to empower students"
-        backgroundImage="/__generating__/img_d569027d4973.png"
+        backgroundImage="hariguru.JPG"
       />
 
       <section className="py-24 px-4">
