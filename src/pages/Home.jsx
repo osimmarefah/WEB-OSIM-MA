@@ -5,7 +5,7 @@ import { ArrowRight, BookOpen, Users, Award, Star, ChevronRight } from 'lucide-r
 import SectionHeading from '../components/shared/SectionHeading';
 
 const stats = [
-  { number: '28', label: 'Active Members' },
+  { number: '27', label: 'Active Members' },
   { number: '6', label: 'Divisions' },
   { number: '100+', label: 'Hafidh Quran' },
   { number: '8', label: 'Years of Excellence' },
