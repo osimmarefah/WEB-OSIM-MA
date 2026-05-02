@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import PageHero from '../components/shared/PageHero';
 import SectionHeading from '../components/shared/SectionHeading';
 import { toast } from 'sonner';
+import emailjs from '@emailjs/browser';
 
 const contactInfo = [
   { icon: MapPin, title: 'Address', detail: 'MA Refah Islami, Indonesia' },
@@ -16,6 +17,11 @@ const contactInfo = [
   { icon: Globe, title: 'Social Media', detail: '@osim.marefahislami' },
 ];
 
+// EmailJS configuration
+const EMAILJS_SERVICE_ID = 'osimmarefahislami';
+const EMAILJS_TEMPLATE_ID = 'template_37nbg0o';
+const EMAILJS_PUBLIC_KEY = '98R4tNsaut2URSZ0c';
+
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
   const [sending, setSending] = useState(false);
@@ -23,11 +29,22 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSending(true);
-    // Simulate sending
-    await new Promise((r) => setTimeout(r, 1500));
-    toast.success('Message sent successfully! We will get back to you soon.');
-    setForm({ name: '', email: '', subject: '', message: '' });
-    setSending(false);
+
+    try {
+      await emailjs.sendForm(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        e.target,
+        EMAILJS_PUBLIC_KEY
+      );
+      toast.success('Message sent successfully! We will get back to you soon.');
+      setForm({ name: '', email: '', subject: '', message: '' });
+    } catch (error) {
+      console.error('Error sending email:', error);
+      toast.error('Failed to send message. Please try again.');
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -79,10 +96,11 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="bg-card rounded-2xl p-8 border border-border shadow-sm space-y-5">
                 <h3 className="font-heading text-xl font-semibold mb-2">Send a Message</h3>
 
-                <div className="grid sm:grid-cols-2 gap-4">
+<div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-1.5">
                     <label className="text-sm font-medium">Name</label>
                     <Input
+                      name="name"
                       placeholder="Your name"
                       value={form.name}
                       onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -92,6 +110,7 @@ export default function Contact() {
                   <div className="space-y-1.5">
                     <label className="text-sm font-medium">Email</label>
                     <Input
+                      name="email"
                       type="email"
                       placeholder="your@email.com"
                       value={form.email}
@@ -104,6 +123,7 @@ export default function Contact() {
                 <div className="space-y-1.5">
                   <label className="text-sm font-medium">Subject</label>
                   <Input
+                    name="subject"
                     placeholder="What is this about?"
                     value={form.subject}
                     onChange={(e) => setForm({ ...form, subject: e.target.value })}
@@ -114,6 +134,7 @@ export default function Contact() {
                 <div className="space-y-1.5">
                   <label className="text-sm font-medium">Message</label>
                   <Textarea
+                    name="message"
                     placeholder="Write your message here..."
                     value={form.message}
                     onChange={(e) => setForm({ ...form, message: e.target.value })}
