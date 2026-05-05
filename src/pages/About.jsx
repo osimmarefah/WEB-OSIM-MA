@@ -119,7 +119,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
-                  Create meaningful community impact through service
+                  Menciptakan dampak komunitas yang bermakna melalui pelayanan.
                 </li>
               </ul>
             </motion.div>

@@ -1,16 +1,9 @@
-# Task: Fix LogoPhilosophy.jsx Bugs
+# Task: Update Avatar Naming Convention in Structure.jsx
 
-## 1. Fix Horizontal Scrollbar & White Bleed [x]
-- [x] Add global overflow-x-hidden in src/index.css
-- [x] Wrap & contain decorative rings in LogoPhilosophy.jsx
+## Steps:
+- [x] 1. Implement getAvatarSrc function in src/pages/Structure.jsx
+- [x] 2. Replace inline avatar src logic with getAvatarSrc(member)
+- [x] 3. Update public/member-photos/README.md with naming instructions
+- [x] 4. Verify avatars load correctly on /structure page
+- [x] 5. Add avatars to hierarchy levels (Leadership, Administrative Core, Division Heads)
 
-## 2. Fix Hamburger Menu Disappearing [x]
-- [x] Analyze Navbar.jsx mobile logic
-- [x] Fix overlay/z-index conflicts with PageHero (increased z-index to z-[100]/z-[200])
-- [ ] Fix overlay/z-index conflicts with PageHero
-
-## 3. Testing [x]
-- [x] Global CSS + JSX overflow fixes applied
-- [x] Navbar z-index fix applied (use src/components/layout/Navbar.jsx)
-
-## 4. Complete [x]
